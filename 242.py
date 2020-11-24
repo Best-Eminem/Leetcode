@@ -3,6 +3,7 @@
 # @Author  : Yike Cheng
 # @FileName: 242.py
 # @Software: PyCharm
-class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
-        return sorted(s) == sorted(t)
+import torch
+# class Solution:
+#     def isAnagram(self, s: str, t: str) -> bool:
+#         return sorted(s) == sorted(t)
